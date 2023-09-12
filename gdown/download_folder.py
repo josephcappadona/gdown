@@ -16,7 +16,7 @@ from .download import _get_session
 from .download import download
 from .exceptions import FolderContentsMaximumLimitError
 
-MAX_NUMBER_FILES = 50
+MAX_NUMBER_FILES = 500000000
 
 
 class _GoogleDriveFile(object):
